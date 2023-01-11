@@ -261,7 +261,7 @@ if (selected == 'Steel Plant Load Prediction'):
     
     # creating a button for Prediction
     
-    if st.button('Heart Disease Test Result'):
+    if st.button('Steel Plant Load Prediction'):
         load_prediction = loaded_model.predict([[Usage_kWh, Lagging_Reactive_Power_kVarh, Leading_Reactive_Power_kVarh, CO2, Lagging_Power_Factor, Leading_Power_Factor, NSM, WeekStatus, Day_of_week]])
 
         if (load_prediction[0] == 0):
