@@ -17,7 +17,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 # loading in the model to predict on the data
-loaded_model = pickle.load(open('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/01.Steel Industry Load Prediction/df.sav', 'rb'))
+loaded_model = pickle.load(open('df.sav', 'rb'))
 
 
 # sidebar for navigation
@@ -33,7 +33,7 @@ if (selected == 'Introduction  to Steel Plant Load Prediction'):
     
 
     
-    image = open('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/01.Steel Industry Load Prediction/image.jpg',"rb")
+    image = open('image.jpg',"rb")
     image = image.read()
     st.image(image,width=1100)
 
@@ -95,11 +95,11 @@ if (selected == 'Introduction  to Steel Plant Load Prediction'):
                  "Therefore, steel manufacturers invest in power factor correction equipment to improve power factor and reduce energy costs."
                  "This equipment helps to improve the efficiency of the manufacturing process and reduce costs associated with lagging current and continuous kvarh consumption.")
         
-    image = open('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/01.Steel Industry Load Prediction/image1.png',"rb")
+    image = open('image1.png',"rb")
     image = image.read()
     st.image(image,width=1000)
     
-    image = open('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/01.Steel Industry Load Prediction/image2.jpg',"rb")
+    image = open('image2.jpg',"rb")
     image = image.read()
     st.image(image,width=1000)
 
@@ -179,7 +179,6 @@ if (selected == 'Basic EDA'):
 
 #--------------------------------------------------------------- PAGE  3 -------------------------------------------------------#
 
-# Diabetes Prediction Page
 if (selected == 'Steel Plant Load Prediction'):
     
     
