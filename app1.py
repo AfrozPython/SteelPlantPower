@@ -133,7 +133,7 @@ if (selected == 'Basic EDA'):
 ]) 
 
 
-    Steel = pd.read_csv('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/01.Steel Industry Load Prediction/Steel_industry_data.csv')
+    Steel = pd.read_csv('Steel_industry_data.csv')
     
     # Scatter Plot
     
