@@ -15,6 +15,8 @@ from streamlit_option_menu import option_menu
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
+st.text('Build by Afroz')
+
 
 # loading in the model to predict on the data
 loaded_model = pickle.load(open('df.sav', 'rb'))
@@ -183,7 +185,8 @@ if (selected == 'Steel Plant Load Prediction'):
     
     
     
-    
+    st.text('Build by Afroz')
+
     # the font and background color, the padding and the text to be displayed
     html_temp = """
     <div style ="background-color:pink;padding:13px">
