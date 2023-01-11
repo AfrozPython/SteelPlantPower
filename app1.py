@@ -184,9 +184,7 @@ if (selected == 'Basic EDA'):
 if (selected == 'Steel Plant Load Prediction'):
     
     
-    
-    st.text('Build by Afroz')
-
+   
     # the font and background color, the padding and the text to be displayed
     html_temp = """
     <div style ="background-color:pink;padding:13px">
